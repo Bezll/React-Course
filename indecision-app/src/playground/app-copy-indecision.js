@@ -26,8 +26,8 @@ const removeAll = () => {
 };
 
 const onMakeDecision = () => {
-    const randonNum = Math.floor(Math.random() * app.options.length);
-    const option = app.options[randonNum]
+    const randomNum = Math.floor(Math.random() * app.options.length);
+    const option = app.options[randomNum]
     alert(option);
 };
 
